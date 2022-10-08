@@ -1,9 +1,6 @@
 {
 .appVersion = "3133";
 .formatVersion = 3;
-DisplayStrings = (
-"H.:IO..I"
-);
 axes = (
 {
 name = "Horizontal Rotation";
