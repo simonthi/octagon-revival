@@ -43,6 +43,7 @@ tag = aalt;
 {
 code = "sub a by A;
 sub b by B;
+sub c by C;
 sub d by D;
 sub e by E;
 sub f by F;
@@ -52,6 +53,7 @@ sub i by I;
 sub j by J;
 sub k by K;
 sub l by L;
+sub m by M;
 sub n by N;
 sub o by O;
 sub p by P;
@@ -3786,7 +3788,7 @@ unicode = 66;
 {
 color = 3;
 glyphname = C;
-lastChange = "2022-10-25 14:09:52 +0000";
+lastChange = "2022-10-25 14:21:11 +0000";
 layers = (
 {
 backgroundImage = {
@@ -16785,7 +16787,7 @@ unicode = 76;
 {
 color = 3;
 glyphname = M;
-lastChange = "2022-10-25 14:20:18 +0000";
+lastChange = "2022-10-25 14:21:11 +0000";
 layers = (
 {
 backgroundImage = {
