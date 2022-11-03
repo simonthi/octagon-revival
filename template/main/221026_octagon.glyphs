@@ -2,9 +2,6 @@
 .appVersion = "3133";
 .formatVersion = 3;
 DisplayStrings = (
-" ABCDEFGH
- &. IJKLMNO
-QRTUVWXZ",
 ART.T.T.SST
 );
 axes = (
