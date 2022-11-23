@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Ohio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <div class="sample" id="id1">OHIO</div>
+        <script>
+            let sampleEle = document.querySelector(".sample");
+            var width = window.screen.width;
+            var height = window.screen.height;
+            document.body.addEventListener("mousemove", (event) => {
+                if (event.x >= width/2){
+                    if (event.y >= height/2){
+                       $("#id1").css( "font-variation-settings", "'HROT'"+30/(width/2)*(event.x-width/2)+",'VROT'"+(-((30)/(height/2)*(event.y-height/2)))+"");
+                        //document.getElementById('id1').style.font-variation-settings= 'HROT' 30/height/2*(event.y-height/2);
+                    } 
+                    
+                    if (event.y < height/2) {
+                         $("#id1").css( "font-variation-settings", "'HROT'"+30/(width/2)*(event.x-width/2)+",'VROT'"+(30 - (30/(height/2)*(event.y)))+"");
+                    }
+                }
+                else if (event.x < width/2){
+                    if (event.y >= height/2){
+                       $("#id1").css( "font-variation-settings", "'HROT'"+(- (30/(width/2)*(width/2 - event.x)))+",'VROT'"+(-((30)/(height/2)*(event.y-height/2)))+"");
+                    } 
+                    
+                    if (event.y < height/2) {
+                         $("#id1").css( "font-variation-settings", "'HROT'"+(- (30/(width/2)*(width/2 - event.x)))+",'VROT'"+(30 - (30/(height/2)*(event.y)))+"");
+                    }
+                } 
+            });
+        </script>
+    </body>
+</html>
