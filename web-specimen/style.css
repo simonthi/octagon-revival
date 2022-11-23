@@ -1,34 +1,38 @@
+@font-face {
+    font-family: octagon;
+    src: url(../export/octagonVF.woff2);
+}
+
+:root {
+    --foreground: #ff1f1f;
+    --background: #1e90ff;
+}
+
 html, body {
-  margin: 0;
+    margin: 12px 8px;
 }
 
 html {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  height: 100%;
+    font-family: octagon;
+    height: 100%;
 }
 
 body {
-  overflow: hidden;
-  height: inherit;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: inherit;
+    background-color: var(--background);
 }
 
 h1 {
-  font-size: 2rem;
-  letter-spacing: -1px;
-  position: absolute;
-  margin: 0;
-  top: -4px;
-  right: 5px;
-
-  color: transparent;
-  text-shadow: 0 0 4px white;
 }
 
 .sample {
     font-family: octagon;
     font-size: 256px;
-    text-align: center;
+    line-height: 0.7;
+    text-align: left;
     width: 100vw;
     height: 100vh;
-    padding-top: 25vh;
+    color: var(--foreground);
 }
