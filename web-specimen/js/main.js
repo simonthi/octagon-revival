@@ -5,7 +5,6 @@ window.onload = function() {
         if (event.x >= width/2){
             if (event.y >= height/2){
                 $("#id1").css( "font-variation-settings", "'HROT'"+30/(width/2)*(event.x-width/2)+",'VROT'"+(-((30)/(height/2)*(event.y-height/2)))+"");
-                //document.getElementById('id1').style.font-variation-settings= 'HROT' 30/height/2*(event.y-height/2);
             } 
 
             if (event.y < height/2) {
