@@ -16,8 +16,8 @@ html, body {
 html {
     font-family: octagon;
     height: auto;
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 11%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 57%, rgba(253,187,45,1) 92%);
+    /*background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 11%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 57%, rgba(253,187,45,1) 92%);*/
 }
 
 body {
@@ -30,7 +30,20 @@ body {
 h1 {
 }
 
+.sample-0 {
+    font-family: octagon;
+    font-size: 960px;
+    line-height: 0.64;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    color: var(--foreground);
+    padding-bottom: 48px;
+    border-bottom: 2px solid var(--foreground);
+}
+
 .sample {
+    padding-top: 24px;
     font-family: octagon;
     font-size: 396px;
     line-height: 0.64;
@@ -38,15 +51,75 @@ h1 {
     width: 100%;
     height: auto;
     color: var(--foreground);
+    padding-bottom: 48px;
+    border-bottom: 2px solid var(--foreground);
+}
+
+.sample-22 {
+    padding-top: 24px;
+    font-family: octagon;
+    font-size: 240px;
+    line-height: 0.64;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    color: var(--foreground);
+    padding-bottom: 48px;
+    border-bottom: 2px solid var(--foreground);
 }
 
 
 .sample-2 {
+    display: inline-block;
+    padding-top: 24px;
     font-family: octagon;
-    font-size: 196px;
-    line-height: 0.64;
-    text-align: left;
+    font-size: 164px;
+    line-height: 0.69;
+    letter-spacing: 0.01em;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    color: var(--foreground);
+    padding-bottom: 48px;
+    border-bottom: 2px solid var(--foreground);
+}
+
+.sample-3 {
+    display: inline-block;
+    padding-top: 24px;
+    font-family: octagon;
+    font-size: 88px;
+    line-height: 0.74;
+    letter-spacing: 0.025em;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    color: var(--foreground);
+    padding-bottom: 48px;
+    border-bottom: 2px solid var(--foreground);
+}
+
+.sample-4 {
+    display: inline-block;
+    padding-top: 24px;
+    font-family: octagon;
+    font-size: 48px;
+    line-height: 0.74;
+    letter-spacing: 0.045em;
+    text-align: center;
     width: 100%;
     height: 100vh;
     color: var(--foreground);
+    padding-bottom: 48px;
+    border-bottom: 2px solid var(--foreground);
+}
+
+.hrot-30 {
+    display: inline-block;
+    font-variation-settings: 'HROT' 30, 'VROT' 0;
+}
+
+.hrot--30 {
+    display: inline-block;
+    font-variation-settings: 'HROT' -30, 'VROT' 0;
 }
