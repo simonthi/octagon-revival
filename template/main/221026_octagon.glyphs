@@ -4,19 +4,16 @@
 DisplayStrings = (
 "-,EEÉ/dieresiscomb.case 
 PFK /dieresiscomb.case ÖÄÜ ÉÄÈÉ
-
 4/acutecomb.case É/gravecomb.case È",
-"ÉETAVAAT",
-"/acutecomb.case EÉ",
-"ALTVWY
+"ALTVWYAS
 AVAWAYA
 AGACAOAQAUA 
-DA DV
-RO RG RC 
+DA DV DY
+RO RG RC RY RS KS
 KO KC KG
-VOVCVGWWOWCWG
+VOVCVGWWOWCWGVSWSYS
 OYO GYG CYC 
-FA PA TAT
+FA PA PY TAT
 LTLVLWLYL
 VJWJYJA
 V.W, V:W; -
@@ -24,20 +21,13 @@ A2A3A4A5A6A7
 A1 L1 41 47 51 911112334
 V4 7A
 .1.7.9.,1,7,9,",
-"/acutecomb.case É",
-"ÈROBBÉRY
+"ZINÉDINE RIBÉRY
 ",
-"/gravecomb.case",
-"/acutecomb.case",
 "R‚R,.2„G,“
 A:”//G‘R’
 ",
-"&",
-"EMAIL@GMX.DE//
-",
-"!",
-"@&",
-"&/acutecomb.case MAIL@RGB.UK//-COM"
+"&!?#@&
+MAIL@RGB.UK//-COM"
 );
 axes = (
 {
@@ -90993,8 +90983,9 @@ width = 600;
 unicode = 39;
 },
 {
+color = 9;
 glyphname = at;
-lastChange = "2022-11-30 07:20:54 +0000";
+lastChange = "2022-11-30 07:22:31 +0000";
 layers = (
 {
 layerId = m01;
