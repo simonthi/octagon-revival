@@ -9,5 +9,7 @@ Alexander Royter, Emma Schmalisch, Felix Willnauer, Friederike Temme, Greta Wach
 
 ## References
 * Shields, David: The Rob Roy Kelly American Wood Type Collection: a history and catalog. Austin, University of Texas Press, 2022, p. 230-231.
+* Original printing blocks held in the Rob Roy Kelly Collection at *The Department of Art and Art History at The University of Texas at Austin*
+https://rrk.finearts.utexas.edu/?dt_portfolio=octagon
 * Andy Clymer’s Tilt Typeface <br>
 https://github.com/andyclymer/Tilt-Typeface
