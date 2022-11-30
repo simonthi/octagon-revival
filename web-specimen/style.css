@@ -43,13 +43,14 @@ h1 {
 }
 
 .sample-1 {
-    border-top: 2px solid;
-    padding-top: 24px;
+    border-top: 2.5px solid;
+    padding-top: 20px;
     font-family: octagon;
     overflow: hidden;
-    font-size: 396px;
+    font-size: 388px;
     line-height: 0.64;
-    text-align: center;
+    letter-spacing: 0.005em;
+	text-align: center;
     width: 100%;
     height: auto;
     padding-bottom: 48px;
@@ -57,11 +58,12 @@ h1 {
 
 .sample-2 {
     border-top: 2px solid;
-    padding-top: 24px;
+    padding-top: 20px;
     font-family: octagon;
     overflow-x: hidden;
-    font-size: 240px;
+    font-size: 244px;
     line-height: 0.64;
+	letter-spacing: 0.01em;
     text-align: center;
     width: 100%;
     height: auto;
@@ -73,11 +75,11 @@ h1 {
     border-top: 2px solid;
     display: inline-block;
     overflow-x: hidden;
-    padding-top: 24px;
+    padding-top: 20px;
     font-family: octagon;
-    font-size: 164px;
-    line-height: 0.69;
-    letter-spacing: 0.01em;
+    font-size: 168px;
+    line-height: 0.68;
+    letter-spacing: 0.015em;
     text-align: center;
     width: 100%;
     height: auto;
@@ -88,10 +90,10 @@ h1 {
     border-top: 2px solid;
     display: inline-block;
     overflow-x: hidden;
-    padding-top: 24px;
+    padding-top: 20px;
     font-family: octagon;
-    font-size: 88px;
-    line-height: 0.74;
+    font-size: 98px;
+    line-height: 0.68;
     letter-spacing: 0.025em;
     text-align: center;
     width: 100%;
@@ -103,11 +105,11 @@ h1 {
     border-top: 2px solid;
     display: inline-block;
     overflow-x: hidden;
-    padding-top: 24px;
+    padding-top: 20px;
     font-family: octagon;
-    font-size: 48px;
-    line-height: 0.74;
-    letter-spacing: 0.045em;
+    font-size: 49px;
+    line-height: 0.76;
+    letter-spacing: 0.04em;
     text-align: center;
     width: 100%;
     height: auto;

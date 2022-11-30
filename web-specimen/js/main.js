@@ -28,7 +28,7 @@ window.onload = function() {
 }
 
 
-var colors = ['#ff1f1f', '#001eff', '#0bff01', '#f47835', '#a200ff', '#0013de', '#0013de', '#ff8000'];
+var colors = ['#ffcc7a', '#29ffb8', '#c2c0c0', '#ff00ff', '#cc7550', '#ff00f7', '#00fff2', '#0040ff', '#ff9900', '#c79154', '#2fc475', '#63e05c'];
 
 function randomize(values) {
     let index = values.length,  randomIndex;
