@@ -32,21 +32,21 @@ var colors = ['#ff1f1f', '#001eff', '#0bff01', '#f47835', '#a200ff', '#0013de', 
 
 function randomize(values) {
     let index = values.length,  randomIndex;
-  
+
     // While there remain elements to shuffle.
     while (index != 0) {
-  
-      // Pick a remaining element.
-      randomIndex = Math.floor(Math.random() * index);
-      index--;
-  
-      // And swap it with the current element.
-      [values[index], values[randomIndex]] = [
-        values[randomIndex], values[index]];
+
+        // Pick a remaining element.
+        randomIndex = Math.floor(Math.random() * index);
+        index--;
+
+        // And swap it with the current element.
+        [values[index], values[randomIndex]] = [
+            values[randomIndex], values[index]];
     }
-  
+
     return values;
-  }
+}
 
 
 
@@ -55,4 +55,5 @@ function colorize() {
         $("#id"+i+"").css( "color", ""+colors[i]+"");
         $("#id"+i+"").css( "border-color", ""+colors[i]+"");
     }
-  }
+}
+
