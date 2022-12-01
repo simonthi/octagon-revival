@@ -56,4 +56,3 @@ function colorize() {
         $("#id"+i+"").css( "border-color", ""+colors[i]+"");
     }
 }
-
