@@ -43,8 +43,8 @@ h1 {
 }
 
 .sample-1 {
-    border-top: 2.5px solid;
-    padding-top: 20px;
+    border-top: 2px solid;
+    padding-top: 14px;
     font-family: octagon;
     overflow: hidden;
     font-size: 388px;
@@ -58,7 +58,7 @@ h1 {
 
 .sample-2 {
     border-top: 2px solid;
-    padding-top: 20px;
+    padding-top: 14px;
     font-family: octagon;
     overflow-x: hidden;
     font-size: 244px;
@@ -75,7 +75,7 @@ h1 {
     border-top: 2px solid;
     display: inline-block;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 14px;
     font-family: octagon;
     font-size: 168px;
     line-height: 0.68;
@@ -90,7 +90,7 @@ h1 {
     border-top: 2px solid;
     display: inline-block;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 14px;
     font-family: octagon;
     font-size: 98px;
     line-height: 0.68;
@@ -105,7 +105,7 @@ h1 {
     border-top: 2px solid;
     display: inline-block;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 14px;
     font-family: octagon;
     font-size: 49px;
     line-height: 0.76;
