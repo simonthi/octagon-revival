@@ -38,13 +38,13 @@ h1 {
     text-align: center;
     width: 100%;
     height: auto;
+    max-height: 100vh;
     padding-bottom: 48px;
-    
+    padding-top: 14px;
 }
 
 .sample-1 {
     border-top: 2px solid;
-    padding-top: 14px;
     font-family: octagon;
     overflow: hidden;
     font-size: 388px;
@@ -54,6 +54,7 @@ h1 {
     width: 100%;
     height: auto;
     padding-bottom: 48px;
+    padding-top: 14px;
 }
 
 .sample-2 {
