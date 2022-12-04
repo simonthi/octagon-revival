@@ -6,7 +6,7 @@ DisplayStrings = (
 PFK /dieresiscomb.case ÖÄ–Ü—,;:.//&@-ÉÄÈÉ
 4/acutecomb.case É/gravecomb.case È",
 "ALTVWYAS
-AVAWAYA
+ATAVAVAWAYA
 AGACAOAQAUA 
 DA DV DY
 RO RG RC RY RS KS
@@ -270,7 +270,7 @@ name = Right;
 glyphs = (
 {
 glyphname = A;
-lastChange = "2022-12-02 21:26:46 +0000";
+lastChange = "2022-12-04 21:27:04 +0000";
 layers = (
 {
 anchors = (
@@ -68936,7 +68936,7 @@ unicode = 7776;
 },
 {
 glyphname = T;
-lastChange = "2022-12-01 21:38:09 +0000";
+lastChange = "2022-12-04 21:24:55 +0000";
 layers = (
 {
 anchors = (
@@ -146946,12 +146946,20 @@ name = "HROT 30";
 );
 kerningLTR = {
 m01 = {
+A = {
+T = -80;
+V = -140;
+};
 T = {
 A = -80;
+};
+V = {
+A = -140;
 };
 };
 m002 = {
 A = {
+T = -80;
 V = -140;
 };
 T = {
@@ -146963,6 +146971,7 @@ A = -140;
 };
 m003 = {
 A = {
+T = -80;
 V = -140;
 };
 T = {
@@ -146974,24 +146983,26 @@ A = -140;
 };
 m004 = {
 A = {
+T = -80;
 V = -140;
 };
 T = {
 A = -80;
 };
 V = {
-A = -140;
+A = -150;
 };
 };
 m005 = {
 A = {
-V = -140;
+T = -80;
+V = -150;
 };
 T = {
 A = -80;
 };
 V = {
-A = -140;
+A = -136;
 };
 };
 };
