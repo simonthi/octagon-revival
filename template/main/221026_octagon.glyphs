@@ -213,7 +213,8 @@ sub zdotaccent by Zdotaccent;
 
 ## custom rules
 
-sub germandbls by S S;";
+sub germandbls by S S;
+sub Germandbls by S S;";
 tag = rclt;
 },
 {
@@ -71891,6 +71892,32 @@ width = 411;
 }
 );
 unicode = 7776;
+},
+{
+glyphname = Germandbls;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+},
+{
+layerId = m003;
+width = 600;
+},
+{
+layerId = m004;
+width = 600;
+},
+{
+layerId = m005;
+width = 600;
+}
+);
+unicode = 7838;
 },
 {
 glyphname = T;
@@ -155193,6 +155220,58 @@ instanceInterpolations = {
 m005 = 1;
 };
 name = "HROT 30";
+},
+{
+axesValues = (
+30,
+-30
+);
+instanceInterpolations = {
+m002 = -0.5;
+m003 = 0.5;
+m004 = 0.16667;
+m005 = 1.16667;
+m01 = -0.33333;
+};
+name = "HROT 30 VROT -30";
+},
+{
+axesValues = (
+30,
+30
+);
+instanceInterpolations = {
+m002 = 0.5;
+m003 = -0.5;
+m004 = 0.16667;
+m005 = 1.16667;
+m01 = -0.33333;
+};
+name = "HROT 30 VROT 30";
+},
+{
+axesValues = (
+-30,
+-30
+);
+instanceInterpolations = {
+m002 = -0.5;
+m003 = 0.5;
+m004 = 1.16667;
+m005 = 0.16667;
+m01 = -0.33333;
+};
+name = "HROT -30 VROT -30";
+},
+{
+axesValues = (
+-30,
+0
+);
+instanceInterpolations = {
+m004 = 1;
+};
+name = "HROT -30 VROT 30";
 }
 );
 kerningLTR = {
