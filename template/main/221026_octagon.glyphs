@@ -30,7 +30,7 @@ OÓŎÔÖȮÒŐŌØÕŒPṖÞQRŔŘŖSŚŠŞŜȘṠTŤŢṪUÚŬ
 "H/circumflexcomb.case/brevecomb.case/brevecomb.case ĂH",
 "HAÆEH",
 "OEŒE",
-"ÉāąåđìțůŮA/acutecomb.case/ringcomb.case/circumflexcomb.case",
+"ÉßāąåđìțůŮA/acutecomb.case/ringcomb.case/circumflexcomb.case",
 "/tildecomb.case",
 "HAAAAAĄ/ogonekcomb.case"
 );
@@ -195,7 +195,13 @@ sub ytilde by Ytilde;
 sub z by Z;
 sub zacute by Zacute;
 sub zcaron by Zcaron;
-sub zdotaccent by Zdotaccent;";
+sub zdotaccent by Zdotaccent;
+
+
+
+## custom rules
+
+sub germandbls by S S;";
 tag = rclt;
 }
 );
@@ -89261,6 +89267,32 @@ width = 600;
 }
 );
 unicode = 7777;
+},
+{
+glyphname = germandbls;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+},
+{
+layerId = m003;
+width = 600;
+},
+{
+layerId = m004;
+width = 600;
+},
+{
+layerId = m005;
+width = 600;
+}
+);
+unicode = 223;
 },
 {
 glyphname = t;
