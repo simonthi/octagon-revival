@@ -59,6 +59,8 @@ LYL  ST
 VJWJYJA
 V.W, V:W; -
 A2A3A4A5A6A7
+212313414515
+616717818919010
 A1 L1 41 47 51 911112334
 V4 7A
 .1.7.9.,1,7,9,
@@ -93639,7 +93641,7 @@ unicode = 48;
 },
 {
 glyphname = one;
-lastChange = "2022-12-07 14:47:25 +0000";
+lastChange = "2022-12-07 23:32:15 +0000";
 layers = (
 {
 background = {
@@ -94017,7 +94019,7 @@ nodes = (
 );
 }
 );
-width = 375;
+width = 380;
 },
 {
 layerId = m002;
@@ -94158,7 +94160,7 @@ nodes = (
 );
 }
 );
-width = 375;
+width = 380;
 },
 {
 layerId = m003;
@@ -94299,7 +94301,7 @@ nodes = (
 );
 }
 );
-width = 375;
+width = 380;
 },
 {
 layerId = m004;
@@ -94440,7 +94442,7 @@ nodes = (
 );
 }
 );
-width = 375;
+width = 380;
 },
 {
 background = {
@@ -94720,11 +94722,11 @@ nodes = (
 );
 }
 );
-width = 335;
+width = 340;
 }
 );
 metricLeft = "=5";
-metricRight = "=5";
+metricRight = "=10";
 unicode = 49;
 },
 {
