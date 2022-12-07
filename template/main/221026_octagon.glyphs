@@ -48,14 +48,14 @@ YOYÓYŎYÔYÖYȮYÒYŐYŌY
 KOKÓKŎKÔKÖKȮKÒKŐKŌK
 KØKŒNIGVOVELD PVOVPYV
 VÞVWÞWYÞY
-FA ASA VSV WSW
+FA PA ASA VSV WSW
 LTĹTĽTĻTŁT
 LVĹVĽVĻVŁVLV. 
 K E R N I N G   T O   D O :
 -----------------------------------
-FJ PA 
-LYL
-VJWJYJA ASAVSV
+FJ 
+LYL RS RV ST
+VJWJYJA
 V.W, V:W; -
 A2A3A4A5A6A7
 A1 L1 41 47 51 911112334
@@ -504,7 +504,7 @@ glyphs = (
 glyphname = A;
 kernLeft = A;
 kernRight = A;
-lastChange = "2022-12-06 22:07:17 +0000";
+lastChange = "2022-12-07 00:02:11 +0000";
 layers = (
 {
 anchors = (
@@ -2324,7 +2324,7 @@ unicode = 65;
 glyphname = Aacute;
 kernLeft = A;
 kernRight = A;
-lastChange = "2022-12-06 20:12:43 +0000";
+lastChange = "2022-12-07 00:02:17 +0000";
 layers = (
 {
 layerId = m01;
@@ -2398,7 +2398,7 @@ unicode = 193;
 glyphname = Abreve;
 kernLeft = A;
 kernRight = A;
-lastChange = "2022-12-06 20:12:43 +0000";
+lastChange = "2022-12-07 00:02:17 +0000";
 layers = (
 {
 layerId = m01;
@@ -2472,7 +2472,7 @@ unicode = 258;
 glyphname = Acaron;
 kernLeft = A;
 kernRight = A;
-lastChange = "2022-12-06 20:12:43 +0000";
+lastChange = "2022-12-07 00:02:17 +0000";
 layers = (
 {
 layerId = m01;
@@ -2546,7 +2546,7 @@ unicode = 461;
 glyphname = Acircumflex;
 kernLeft = A;
 kernRight = A;
-lastChange = "2022-12-06 20:12:43 +0000";
+lastChange = "2022-12-07 00:02:17 +0000";
 layers = (
 {
 layerId = m01;
@@ -2620,7 +2620,7 @@ unicode = 194;
 glyphname = Adieresis;
 kernLeft = A;
 kernRight = A;
-lastChange = "2022-12-06 20:21:53 +0000";
+lastChange = "2022-12-07 00:02:17 +0000";
 layers = (
 {
 layerId = m01;
@@ -2694,7 +2694,7 @@ unicode = 196;
 glyphname = Agrave;
 kernLeft = A;
 kernRight = A;
-lastChange = "2022-12-06 20:12:43 +0000";
+lastChange = "2022-12-07 00:02:17 +0000";
 layers = (
 {
 layerId = m01;
@@ -2768,7 +2768,7 @@ unicode = 192;
 glyphname = Amacron;
 kernLeft = A;
 kernRight = A;
-lastChange = "2022-12-06 20:12:43 +0000";
+lastChange = "2022-12-07 00:02:17 +0000";
 layers = (
 {
 layerId = m01;
@@ -2842,7 +2842,7 @@ unicode = 256;
 glyphname = Aogonek;
 kernLeft = A;
 kernRight = A;
-lastChange = "2022-12-06 20:12:43 +0000";
+lastChange = "2022-12-07 00:02:17 +0000";
 layers = (
 {
 layerId = m01;
@@ -2916,7 +2916,7 @@ unicode = 260;
 glyphname = Aring;
 kernLeft = A;
 kernRight = A;
-lastChange = "2022-12-06 20:12:43 +0000";
+lastChange = "2022-12-07 00:02:17 +0000";
 layers = (
 {
 layerId = m01;
@@ -2990,7 +2990,7 @@ unicode = 197;
 glyphname = Atilde;
 kernLeft = A;
 kernRight = A;
-lastChange = "2022-12-06 20:12:43 +0000";
+lastChange = "2022-12-07 00:02:17 +0000";
 layers = (
 {
 layerId = m01;
@@ -36444,7 +36444,7 @@ unicode = 310;
 {
 glyphname = L;
 kernRight = L;
-lastChange = "2022-12-06 23:54:36 +0000";
+lastChange = "2022-12-07 00:04:57 +0000";
 layers = (
 {
 anchors = (
@@ -38064,7 +38064,7 @@ unicode = 315;
 {
 glyphname = Lslash;
 kernRight = L;
-lastChange = "2022-12-06 23:53:03 +0000";
+lastChange = "2022-12-07 00:05:26 +0000";
 layers = (
 {
 background = {
@@ -59036,7 +59036,7 @@ unicode = 338;
 {
 glyphname = P;
 kernRight = P;
-lastChange = "2022-12-06 23:22:59 +0000";
+lastChange = "2022-12-07 00:06:34 +0000";
 layers = (
 {
 anchors = (
@@ -156771,6 +156771,7 @@ T = -120;
 "@MMK_R_Y" = -40;
 };
 "@MMK_L_P" = {
+"@MMK_R_A" = -80;
 "@MMK_R_V" = -60;
 "@MMK_R_Y" = -30;
 };
@@ -156851,7 +156852,7 @@ T = -90;
 W = -154;
 };
 "@MMK_L_L" = {
-"@MMK_R_T" = -50;
+"@MMK_R_T" = -120;
 "@MMK_R_V" = -85;
 };
 "@MMK_L_O" = {
@@ -156861,6 +156862,7 @@ W = -154;
 Y = -60;
 };
 "@MMK_L_P" = {
+"@MMK_R_A" = -80;
 "@MMK_R_Y" = -40;
 };
 "@MMK_L_R" = {
@@ -156928,6 +156930,7 @@ Y = {
 };
 Lslash = {
 "@MMK_R_V" = -85;
+"@MMK_R_T" = -50;
 };
 };
 m003 = {
@@ -156939,7 +156942,7 @@ S = -25;
 T = -90;
 };
 "@MMK_L_L" = {
-"@MMK_R_T" = -50;
+"@MMK_R_T" = -120;
 "@MMK_R_V" = -80;
 };
 "@MMK_L_O" = {
@@ -156949,6 +156952,7 @@ T = -90;
 Y = -60;
 };
 "@MMK_L_P" = {
+"@MMK_R_A" = -80;
 "@MMK_R_V" = -40;
 "@MMK_R_Y" = -40;
 };
@@ -157019,6 +157023,7 @@ Y = {
 };
 Lslash = {
 "@MMK_R_V" = -80;
+"@MMK_R_T" = -50;
 };
 };
 m004 = {
@@ -157040,6 +157045,7 @@ T = -90;
 Y = -40;
 };
 "@MMK_L_P" = {
+"@MMK_R_A" = -80;
 "@MMK_R_Y" = -20;
 };
 "@MMK_L_R" = {
@@ -157109,6 +157115,7 @@ Y = {
 };
 Lslash = {
 "@MMK_R_V" = -95;
+"@MMK_R_T" = -50;
 };
 };
 m005 = {
@@ -157131,6 +157138,7 @@ W = -130;
 Y = -40;
 };
 "@MMK_L_P" = {
+"@MMK_R_A" = -80;
 "@MMK_R_V" = -20;
 "@MMK_R_Y" = -20;
 };
