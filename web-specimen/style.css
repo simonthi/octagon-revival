@@ -53,7 +53,7 @@ div:focus {
     overflow: hidden;
     font-size: 388px;
     line-height: 0.64;
-    letter-spacing: 0.005em;
+    letter-spacing: 0.002em;
     text-align: center;
     width: 100%;
     height: auto;
@@ -68,7 +68,7 @@ div:focus {
     overflow-x: hidden;
     font-size: 244px;
     line-height: 0.64;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.005em;
     text-align: center;
     width: 100%;
     height: auto;
@@ -84,7 +84,7 @@ div:focus {
     font-family: octagon;
     font-size: 168px;
     line-height: 0.68;
-    letter-spacing: 0.015em;
+    letter-spacing: 0.01em;
     text-align: center;
     width: 100%;
     height: auto;
@@ -99,7 +99,7 @@ div:focus {
     font-family: octagon;
     font-size: 98px;
     line-height: 0.68;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.02em;
     text-align: center;
     width: 100%;
     height: auto;
