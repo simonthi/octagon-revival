@@ -66,7 +66,7 @@ V4 7A
 "ḂḂḂḂḂḂÉÉÉÉÉÉĔĔĔĔĔĔĚĚĚĚĚĚÊÊÊÊÊÊËËËËËËĖĖĖĖĖĖÈÈÈÈÈÈĒĒĒĒĒĒẼẼẼẼẼẼȞȞȞȞȞȞȞȞĤĤĤĤĤĤĤĤḢḢḢḢḢḢḢḢĲĲĲĲĲĲÍÍÍÍÍÍÎÎÎÎÎÎÏÏÏÏÏÏİİİİİİÌÌÌÌÌÌĪĪĪĪĪĪĨĨĨĨĨĨǨǨǨǨǨǨĶĶĶĶĶĶŃŃŃŃŇŇŇŇŅŅŅŅǸǸǸǸÑÑÑÑṖṖṖṖṖṖŔŔŔŔŔŔŘŘŘŘŘŘŖŖŖŖŖŖ",
 N,
 "#",
-"¸˛/brevecomb.case/tildecomb.case/caroncomb.case/circumflexcomb.case"
+"¸˛/brevecomb.case/ringcomb.case/tildecomb.case/caroncomb.case/circumflexcomb.case"
 );
 axes = (
 {
@@ -150737,7 +150737,7 @@ metricRight = "=5";
 {
 color = 4;
 glyphname = ringcomb.case;
-lastChange = "2022-12-05 11:34:01 +0000";
+lastChange = "2022-12-07 16:20:20 +0000";
 layers = (
 {
 anchors = (
@@ -151566,8 +151566,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(70,676,l),
-(65,687,l),
+(74,676,l),
+(69,687,l),
 (9,670,l),
 (17,660,l)
 );
@@ -151584,10 +151584,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(70,685,l),
+(74,686,l),
 (17,702,l),
 (9,692,l),
-(65,675,l)
+(69,676,l)
 );
 },
 {
