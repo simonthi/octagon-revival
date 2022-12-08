@@ -30,6 +30,11 @@ body {
 h1 {
 }
 
+a{
+    color: inherit;
+    text-decoration-thickness: 2px;
+}
+
 div:focus {
     outline: none;
 }
@@ -44,7 +49,7 @@ div:focus {
     height: auto;
     max-height: 100vh;
     padding-bottom: 48px;
-    padding-top: 14px;
+    padding-top: 16px;
 }
 
 .sample-1 {
@@ -58,7 +63,7 @@ div:focus {
     width: 100%;
     height: auto;
     padding-bottom: 48px;
-    padding-top: 14px;
+    padding-top: 16px;
 }
 
 .sample-2 {
@@ -170,16 +175,19 @@ div:focus {
 @media only screen and (max-width: 1080px) {
     .sample-0 {
         font-size: 480px;
+        padding-bottom: 24px;
     }
 
     .sample-1 {
         font-size: 168px;
         letter-spacing: 0.015em;
+        padding-bottom: 24px;
     }
 
     .sample-2 {
         font-size: 98px;
         letter-spacing: 0.025em;
+        padding-bottom: 24px;
     }
 
 
@@ -187,13 +195,16 @@ div:focus {
         font-size: 72px;
         line-height: 0.76;
         letter-spacing: 0.04em;
+        padding-bottom: 24px;
     }
 
     .sample-4 {
         font-size: 64px;
+        padding-bottom: 24px;
     }
 
     .sample-5 {
+        padding-bottom: 24px;
     }
 }
 
@@ -277,12 +288,15 @@ div:focus {
         font-size: 52px;
         line-height: 0.76;
         letter-spacing: 0.04em;
+        padding-bottom: 16px;
     }
 
     .sample-4 {
         font-size: 36px;
+        padding-bottom: 16px;
     }
 
     .sample-5 {
+        padding-bottom: 16px;
     }
 }
