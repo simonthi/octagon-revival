@@ -146,7 +146,14 @@ div:focus {
     font-variation-settings: 'HROT' 0, 'VROT' -30;
 }
 
-/* Media queries */
+.break {
+    overflow-wrap: anywhere;
+    line-height: 1;
+}
+
+
+
+/*              Media queries               */
 
 @media only screen and (max-width: 1600px) {
     .sample-0 {
