@@ -146036,6 +146036,60 @@ metricRight = "=15";
 unicode = 64;
 },
 {
+glyphname = asciicircum;
+lastChange = "2022-12-12 11:22:20 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = circumflexcomb.case;
+}
+);
+width = 290;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = circumflexcomb.case;
+}
+);
+width = 290;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = circumflexcomb.case;
+}
+);
+width = 290;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = circumflexcomb.case;
+}
+);
+width = 290;
+},
+{
+layerId = m005;
+shapes = (
+{
+ref = circumflexcomb.case;
+}
+);
+width = 290;
+}
+);
+metricLeft = "=circumflexcomb.case";
+metricRight = "=circumflexcomb.case";
+unicode = 94;
+},
+{
 glyphname = dieresiscomb.case;
 lastChange = "2022-12-09 11:33:22 +0000";
 layers = (
