@@ -22,7 +22,7 @@ OÓŎÔÖȮÒŐŌØÕŒPṖÞQRŔŘŖSŚŠŞŜȘṠTŤŢṪUÚŬ
 "H-H–//-A–,//—R-",
 "AĄỊųIĮUŲ",
 "ǽǼ",
-"NŋŊJ"
+"NOǿØǾŋŊJ"
 );
 axes = (
 {
@@ -172,6 +172,7 @@ sub ohungarumlaut by Ohungarumlaut;
 sub omacron by Omacron;
 sub oogonek by Oogonek;
 sub oslash by Oslash;
+sub oslashacute by Oslashacute;
 sub otilde by Otilde;
 sub oe by OE;
 sub p by P;
@@ -52413,9 +52414,19 @@ unicode = 490;
 glyphname = Oslash;
 kernLeft = O;
 kernRight = O;
-lastChange = "2022-12-09 11:33:30 +0000";
+lastChange = "2022-12-12 09:56:42 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (265,0);
+},
+{
+name = top;
+pos = (265,600);
+}
+);
 background = {
 shapes = (
 {
@@ -53299,6 +53310,16 @@ nodes = (
 width = 530;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (265,50);
+},
+{
+name = top;
+pos = (265,550);
+}
+);
 background = {
 shapes = (
 {
@@ -54083,6 +54104,16 @@ nodes = (
 width = 530;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (265,50);
+},
+{
+name = top;
+pos = (265,550);
+}
+);
 background = {
 shapes = (
 {
@@ -54984,6 +55015,16 @@ nodes = (
 width = 530;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (244,0);
+},
+{
+name = top;
+pos = (244,600);
+}
+);
 background = {
 shapes = (
 {
@@ -55768,6 +55809,16 @@ nodes = (
 width = 488;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (245,0);
+},
+{
+name = top;
+pos = (245,600);
+}
+);
 background = {
 shapes = (
 {
@@ -57351,6 +57402,78 @@ width = 488;
 }
 );
 unicode = 216;
+},
+{
+glyphname = Oslashacute;
+lastChange = "2022-12-12 09:56:39 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Oslash;
+},
+{
+pos = (153,0);
+ref = acutecomb.case;
+}
+);
+width = 530;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = Oslash;
+},
+{
+pos = (160,0);
+ref = acutecomb.case;
+}
+);
+width = 530;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = Oslash;
+},
+{
+pos = (160,0);
+ref = acutecomb.case;
+}
+);
+width = 530;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = Oslash;
+},
+{
+pos = (149,0);
+ref = acutecomb.case;
+}
+);
+width = 488;
+},
+{
+layerId = m005;
+shapes = (
+{
+ref = Oslash;
+},
+{
+pos = (150,0);
+ref = acutecomb.case;
+}
+);
+width = 490;
+}
+);
+unicode = 510;
 },
 {
 glyphname = Otilde;
@@ -93963,6 +94086,33 @@ width = 600;
 }
 );
 unicode = 248;
+},
+{
+glyphname = oslashacute;
+lastChange = "2022-12-12 09:57:08 +0000";
+layers = (
+{
+layerId = m01;
+width = 810;
+},
+{
+layerId = m002;
+width = 810;
+},
+{
+layerId = m003;
+width = 810;
+},
+{
+layerId = m004;
+width = 810;
+},
+{
+layerId = m005;
+width = 790;
+}
+);
+unicode = 511;
 },
 {
 glyphname = otilde;
