@@ -24,7 +24,8 @@ OÓŎÔÖȮÒŐŌØÕŒPṖÞQRŔŘŖSŚŠŞŜȘṠTŤŢṪUÚŬ
 "ǽǼ",
 "NOǿØǾŋŊJ",
 "Ø",
-"AEÁĂǍÂÄÀĀĄÅÃÆǼBḂCĆČÇĈĊDÐĎḐĐḊEÉĔĚÊËĖÈĒĘẼFGĞǦĜĢĠḠHĦȞĤḢIĲÍǏÎÏİỊÌĪĮĨJĴKǨĶLĹĽĻŁMNŃŇŅǸÑŊOÓŎǑÔÖȮỌÒŐŌǪØǾÕŒPṖÞQRŔŘŖSŚŠŞŜȘṠẞTŤŢȚṪUÚŬǓÛÜỤÙŰŪŲŮŨVṼWẂŴẄẀXYÝŶŸỲȲỸZŹŽŻ"
+"AEÁĂǍÂÄÀĀĄÅÃÆǼBḂCĆČÇĈĊDÐĎḐĐḊEÉĔĚÊËĖÈĒĘẼFGĞǦĜĢĠḠHĦȞĤḢIĲÍǏÎÏİỊÌĪĮĨJĴKǨĶLĹĽĻŁMNŃŇŅǸÑŊOÓŎǑÔÖȮỌÒŐŌǪØǾÕŒPṖÞQRŔŘŖSŚŠŞŜȘṠẞTŤŢȚṪUÚŬǓÛÜỤÙŰŪŲŮŨVṼWẂŴẄẀXYÝŶŸỲȲỸZŹŽŻ",
+"N~N"
 );
 axes = (
 {
@@ -146034,6 +146035,65 @@ width = 630;
 metricLeft = "=15";
 metricRight = "=15";
 unicode = 64;
+},
+{
+glyphname = asciitilde;
+lastChange = "2022-12-12 11:26:49 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,-360);
+ref = tildecomb.case;
+}
+);
+width = 242;
+},
+{
+layerId = m002;
+shapes = (
+{
+pos = (0,-290);
+ref = tildecomb.case;
+}
+);
+width = 242;
+},
+{
+layerId = m003;
+shapes = (
+{
+pos = (0,-290);
+ref = tildecomb.case;
+}
+);
+width = 242;
+},
+{
+layerId = m004;
+shapes = (
+{
+pos = (0,-360);
+ref = tildecomb.case;
+}
+);
+width = 222;
+},
+{
+layerId = m005;
+shapes = (
+{
+pos = (0,-360);
+ref = tildecomb.case;
+}
+);
+width = 222;
+}
+);
+metricLeft = "=tildecomb.case";
+metricRight = "=tildecomb.case";
+unicode = 126;
 },
 {
 glyphname = asciicircum;
