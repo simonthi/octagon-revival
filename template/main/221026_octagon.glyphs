@@ -20,7 +20,7 @@ OÓŎÔÖȮÒŐŌØÕŒPṖÞQRŔŘŖSŚŠŞŜȘṠTŤŢṪUÚŬ
 &
 ",
 "H-H–//-A–,//—R-",
-"AĄUŲ"
+"AĄIĮUŲ"
 );
 axes = (
 {
@@ -32772,7 +32772,7 @@ unicode = 7714;
 },
 {
 glyphname = I;
-lastChange = "2022-12-06 23:23:32 +0000";
+lastChange = "2022-12-12 08:51:12 +0000";
 layers = (
 {
 anchors = (
@@ -32782,7 +32782,7 @@ pos = (130,0);
 },
 {
 name = ogonek;
-pos = (230,10);
+pos = (228,18);
 },
 {
 name = top;
@@ -32887,7 +32887,7 @@ pos = (130,50);
 },
 {
 name = ogonek;
-pos = (230,60);
+pos = (228,68);
 },
 {
 name = top;
@@ -32992,7 +32992,7 @@ pos = (130,50);
 },
 {
 name = ogonek;
-pos = (230,60);
+pos = (228,68);
 },
 {
 name = top;
@@ -33097,7 +33097,7 @@ pos = (113,0);
 },
 {
 name = ogonek;
-pos = (212,10);
+pos = (212,18);
 },
 {
 name = top;
@@ -33202,7 +33202,7 @@ pos = (130,0);
 },
 {
 name = ogonek;
-pos = (212,10);
+pos = (212,18);
 },
 {
 name = top;
@@ -33811,6 +33811,7 @@ unicode = 298;
 },
 {
 glyphname = Iogonek;
+lastChange = "2022-12-12 08:51:12 +0000";
 layers = (
 {
 layerId = m01;
@@ -33819,7 +33820,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (128,-8);
+pos = (126,0);
 ref = ogonekcomb.case;
 }
 );
@@ -33832,7 +33833,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (128,42);
+pos = (126,50);
 ref = ogonekcomb.case;
 }
 );
@@ -33845,7 +33846,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (125,42);
+pos = (123,50);
 ref = ogonekcomb.case;
 }
 );
@@ -33858,7 +33859,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (117,-8);
+pos = (117,0);
 ref = ogonekcomb.case;
 }
 );
@@ -33871,7 +33872,7 @@ shapes = (
 ref = I;
 },
 {
-pos = (127,-8);
+pos = (127,0);
 ref = ogonekcomb.case;
 }
 );
