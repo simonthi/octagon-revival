@@ -22,7 +22,8 @@ OÓŎÔÖȮÒŐŌØÕŒPṖÞQRŔŘŖSŚŠŞŜȘṠTŤŢṪUÚŬ
 "H-H–//-A–,//—R-",
 "AĄỊųIĮUŲ",
 "ǽǼ",
-"NOǿØǾŋŊJ"
+"NOǿØǾŋŊJ",
+"Ø"
 );
 axes = (
 {
@@ -44820,7 +44821,7 @@ unicode = 209;
 },
 {
 glyphname = Eng;
-lastChange = "2022-12-12 09:54:24 +0000";
+lastChange = "2022-12-12 09:58:27 +0000";
 layers = (
 {
 layerId = m01;
@@ -47231,7 +47232,7 @@ nodes = (
 );
 }
 );
-width = 581;
+width = 576;
 }
 );
 metricLeft = "=N";
@@ -52414,7 +52415,7 @@ unicode = 490;
 glyphname = Oslash;
 kernLeft = O;
 kernRight = O;
-lastChange = "2022-12-12 09:56:42 +0000";
+lastChange = "2022-12-12 09:59:43 +0000";
 layers = (
 {
 anchors = (
@@ -56368,10 +56369,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(260,515,l),
+(263,521,l),
 (161,586,l),
-(144,580,l),
-(243,509,l)
+(141,578,l),
+(243,513,l)
 );
 },
 {
@@ -56603,6 +56604,16 @@ nodes = (
 width = 490;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (244,50);
+},
+{
+name = top;
+pos = (244,550);
+}
+);
 associatedMasterId = m004;
 attr = {
 coordinates = (
