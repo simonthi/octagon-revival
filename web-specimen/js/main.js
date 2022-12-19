@@ -55,7 +55,7 @@ function randomize(values) {
 
 
 function colorize() {
-    for(i = 0; i < 8; i++) {
+    for(i = 0; i < 9; i++) {
         $("#id"+i+"").css( "color", ""+colors[i]+"");
         $("#id"+i+"").css( "border-color", ""+colors[i]+"");
     }

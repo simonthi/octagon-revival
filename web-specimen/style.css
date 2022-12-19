@@ -79,6 +79,9 @@ div:focus {
     height: auto;
     padding-bottom: 48px;
 }
+#id8 {
+    line-height: 0.78;
+}
 
 
 .sample-3 {
@@ -103,7 +106,7 @@ div:focus {
     padding-top: 14px;
     font-family: octagon;
     font-size: 98px;
-    line-height: 0.68;
+    line-height: 0.78;
     letter-spacing: 0.02em;
     text-align: center;
     width: 100%;
@@ -148,7 +151,7 @@ div:focus {
 
 .break {
     overflow-wrap: anywhere;
-    line-height: 1;
+    line-height: 0.94;
 }
 
 
