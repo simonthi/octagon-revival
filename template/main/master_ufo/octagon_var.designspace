@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="HROT" name="Horizontal Rotation" minimum="-30" maximum="30" default="0"/>
+    <axis tag="VROT" name="Vertical Rotation" minimum="-30" maximum="30" default="0"/>
+  </axes>
+  <sources>
+    <source filename="octagon-Regular.ufo" name="octagon Regular" familyname="octagon" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="0"/>
+        <dimension name="Vertical Rotation" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="octagon-Top.ufo" name="octagon Top" familyname="octagon" stylename="Top">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="0"/>
+        <dimension name="Vertical Rotation" xvalue="30"/>
+      </location>
+    </source>
+    <source filename="octagon-Bottom.ufo" name="octagon Bottom" familyname="octagon" stylename="Bottom">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="0"/>
+        <dimension name="Vertical Rotation" xvalue="-30"/>
+      </location>
+    </source>
+    <source filename="octagon-Right.ufo" name="octagon Right" familyname="octagon" stylename="Right">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="30"/>
+        <dimension name="Vertical Rotation" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="octagon-Left.ufo" name="octagon Left" familyname="octagon" stylename="Left">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="-30"/>
+        <dimension name="Vertical Rotation" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="octagon-HROT-30VROT-30.ufo">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="-30"/>
+        <dimension name="Vertical Rotation" xvalue="-30"/>
+      </location>
+    </source>
+    <source filename="octagon-HROT30VROT-30.ufo">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="30"/>
+        <dimension name="Vertical Rotation" xvalue="-30"/>
+      </location>
+    </source>
+    <source filename="octagon-HROT-30VROT30.ufo">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="-30"/>
+        <dimension name="Vertical Rotation" xvalue="30"/>
+      </location>
+    </source>
+    <source filename="octagon-HROT30VROT30.ufo">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="30"/>
+        <dimension name="Vertical Rotation" xvalue="30"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="octagon NORMAL" familyname="octagon" stylename="NORMAL" filename="../instance_ufo/octagon-NORMAL.ufo" stylemapfamilyname="octagon NORMAL" stylemapstylename="regular">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="0"/>
+        <dimension name="Vertical Rotation" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="octagon VROT -30" familyname="octagon" stylename="VROT -30" filename="../instance_ufo/octagon-VROT-30.ufo" stylemapfamilyname="octagon VROT -30" stylemapstylename="regular">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="0"/>
+        <dimension name="Vertical Rotation" xvalue="-30"/>
+      </location>
+    </instance>
+    <instance name="octagon VROT 30" familyname="octagon" stylename="VROT 30" filename="../instance_ufo/octagon-VROT30.ufo" stylemapfamilyname="octagon VROT 30" stylemapstylename="regular">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="0"/>
+        <dimension name="Vertical Rotation" xvalue="30"/>
+      </location>
+    </instance>
+    <instance name="octagon HROT -30" familyname="octagon" stylename="HROT -30" filename="../instance_ufo/octagon-HROT-30.ufo" stylemapfamilyname="octagon HROT -30" stylemapstylename="regular">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="-30"/>
+        <dimension name="Vertical Rotation" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="octagon HROT 30" familyname="octagon" stylename="HROT 30" filename="../instance_ufo/octagon-HROT30.ufo" stylemapfamilyname="octagon HROT 30" stylemapstylename="regular">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="30"/>
+        <dimension name="Vertical Rotation" xvalue="0"/>
+      </location>
+    </instance>
+    <instance name="octagon HROT 30 VROT -30" familyname="octagon" stylename="HROT 30 VROT -30" filename="../instance_ufo/octagon-HROT30VROT-30.ufo" stylemapfamilyname="octagon HROT 30 VROT -30" stylemapstylename="regular">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="30"/>
+        <dimension name="Vertical Rotation" xvalue="-30"/>
+      </location>
+    </instance>
+    <instance name="octagon HROT 30 VROT 30" familyname="octagon" stylename="HROT 30 VROT 30" filename="../instance_ufo/octagon-HROT30VROT30.ufo" stylemapfamilyname="octagon HROT 30 VROT 30" stylemapstylename="regular">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="30"/>
+        <dimension name="Vertical Rotation" xvalue="30"/>
+      </location>
+    </instance>
+    <instance name="octagon HROT -30 VROT -30" familyname="octagon" stylename="HROT -30 VROT -30" filename="../instance_ufo/octagon-HROT-30VROT-30.ufo" stylemapfamilyname="octagon HROT -30 VROT -30" stylemapstylename="regular">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="-30"/>
+        <dimension name="Vertical Rotation" xvalue="-30"/>
+      </location>
+    </instance>
+    <instance name="octagon HROT -30 VROT 30" familyname="octagon" stylename="HROT -30 VROT 30" filename="../instance_ufo/octagon-HROT-30VROT30.ufo" stylemapfamilyname="octagon HROT -30 VROT 30" stylemapstylename="regular">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="-30"/>
+        <dimension name="Vertical Rotation" xvalue="30"/>
+      </location>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>at</string>
+        <string>diagonals</string>
+        <string>horizontals</string>
+        <string>verticals</string>
+      </array>
+    </dict>
+  </lib>
+</designspace>
