@@ -60,3 +60,36 @@ function colorize() {
         $("#id"+i+"").css( "border-color", ""+colors[i]+"");
     }
 }
+
+
+function  run(){
+    $(".overlay").css( "display", "none");
+
+    if (typeof DeviceOrientationEvent.requestPermission === 'function') {
+        DeviceOrientationEvent.requestPermission()
+            .then(permissionState => {
+            if (permissionState === 'granted') {
+                window.addEventListener('deviceorientation', (e) => {
+                    const beta = e.beta;
+                    const gamma = e.gamma;
+                    if (beta < 45) {
+                        $("#id1").css( "font-variation-settings", "'HROT'"+(gamma/3)+",'VROT'"+((45-beta)/3)+"");
+                    } else {
+                        $("#id1").css( "font-variation-settings", "'HROT'"+(gamma/3)+",'VROT'"+((beta-45)/-3)+"");
+                    }
+                });
+            }
+        })
+            .catch(console.error);
+    } else {
+        window.addEventListener('deviceorientation', (e) => {
+            const beta = e.beta;
+            const gamma = e.gamma;
+            if (beta < 45) {
+                $("#id1").css( "font-variation-settings", "'HROT'"+(gamma/3)+",'VROT'"+((45-beta)/3)+"");
+            } else {
+                $("#id1").css( "font-variation-settings", "'HROT'"+(gamma/3)+",'VROT'"+((beta-45)/-3)+"");
+            }
+        });
+    }
+}

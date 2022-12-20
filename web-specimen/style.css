@@ -129,6 +129,19 @@ div:focus {
     padding-bottom: 48px;
 }
 
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    font-size: 64px;
+    text-align: center;
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
 .hrot-30 {
     display: inline-block;
     font-variation-settings: 'HROT' 30, 'VROT' 0;
@@ -287,6 +300,7 @@ div:focus {
     .sample-5 {
         font-size: 24px;
     }
+
 }
 
 @media only screen and (max-width: 440px) {
@@ -318,5 +332,11 @@ div:focus {
 
     .sample-5 {
         padding-bottom: 16px;
+    }
+}
+
+@media (pointer: coarse) {
+    .overlay {
+        display: block;
     }
 }
