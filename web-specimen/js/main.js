@@ -38,7 +38,7 @@ window.onload = function() {
 }
 
 
-var colors = ['#ffcc7a', '#29ffb8', '#c2c0c0', '#ff00ff', '#cc7550', '#ff00f7', '#00fff2', '#0040ff', '#ff9900', '#c79154', '#2fc475', '#63e05c', '#63e05c'];
+var colors = ['#ffcc7a', '#29ffb8', '#ff5a36', '#ffba00', '#cc7550', '#ff00f7', '#00b7eb', '#0040ff', '#ff9900', '#c79154', '#2fc475', '#32cd32', '#63e05c'];
 
 function randomize(values) {
     let index = values.length,  randomIndex;
