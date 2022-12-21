@@ -29,9 +29,7 @@ OÓŎÔÖȮÒŐŌØÕŒPṖÞQRŔŘŖSŚŠŞŜȘṠTŤŢṪUÚŬ
 "#",
 "444220@/.notdef",
 "/ogonekcomb.case",
-"/ogonekcomb.case ˛",
-"ŀĿY
-ÒT"
+"/ogonekcomb.case ˛"
 );
 axes = (
 {
@@ -59,7 +57,7 @@ Location = -30;
 }
 );
 date = "2022-09-06 09:58:40 +0000";
-familyName = octagon;
+familyName = "Octagon Variable";
 featurePrefixes = (
 {
 automatic = 1;
@@ -165240,6 +165238,68 @@ type = descender;
 },
 {
 type = "italic angle";
+}
+);
+properties = (
+{
+key = designers;
+values = (
+{
+language = ENG;
+value = "Prof. Pierre Pané-Farré";
+},
+{
+language = ENG;
+value = "Simon Thiefes";
+},
+{
+language = ENG;
+value = "Alexander Royter, Emma Schmalisch, Felix Willnauer, Friederike Temme, Greta Wachholz, Jason Tsiakas, Julia Baskal, Julia Schmidt, Kaja Wetzel, Kateryna Shelevytska, Lara Tamminga, Nina Vierke Liyani, Sania Salem, Sarah-Ann Röhlen, Sofiya Slyusarenko, Stina Scholz, Syeda Maya Zaheer, Vanessa Schneider, Zoe Rygus";
+}
+);
+},
+{
+key = designerURL;
+value = "https://www.haw-hamburg.de/";
+},
+{
+key = copyrights;
+values = (
+{
+language = ENG;
+value = "Copyright 2022, The Octagon Variable Project Authors ";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = licenses;
+values = (
+{
+language = ENG;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = postscriptFullName;
+value = "Octagon Variable";
+},
+{
+key = postscriptFontName;
+value = "Octagon-Variable";
+},
+{
+key = sampleTexts;
+values = (
+{
+language = ENG;
+value = "Octagon Variable";
+}
+);
 }
 );
 unitsPerEm = 1000;
