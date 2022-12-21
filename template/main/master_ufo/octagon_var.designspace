@@ -5,7 +5,7 @@
     <axis tag="VROT" name="Vertical Rotation" minimum="-30" maximum="30" default="0"/>
   </axes>
   <sources>
-    <source filename="octagon-Regular.ufo" name="octagon Regular" familyname="octagon" stylename="Regular">
+    <source filename="OctagonVariable-Regular.ufo" name="Octagon Variable Regular" familyname="Octagon Variable" stylename="Regular">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -15,49 +15,49 @@
         <dimension name="Vertical Rotation" xvalue="0"/>
       </location>
     </source>
-    <source filename="octagon-Top.ufo" name="octagon Top" familyname="octagon" stylename="Top">
+    <source filename="OctagonVariable-Top.ufo" name="Octagon Variable Top" familyname="Octagon Variable" stylename="Top">
       <location>
         <dimension name="Horizontal Rotation" xvalue="0"/>
         <dimension name="Vertical Rotation" xvalue="30"/>
       </location>
     </source>
-    <source filename="octagon-Bottom.ufo" name="octagon Bottom" familyname="octagon" stylename="Bottom">
+    <source filename="OctagonVariable-Bottom.ufo" name="Octagon Variable Bottom" familyname="Octagon Variable" stylename="Bottom">
       <location>
         <dimension name="Horizontal Rotation" xvalue="0"/>
         <dimension name="Vertical Rotation" xvalue="-30"/>
       </location>
     </source>
-    <source filename="octagon-Right.ufo" name="octagon Right" familyname="octagon" stylename="Right">
-      <location>
-        <dimension name="Horizontal Rotation" xvalue="30"/>
-        <dimension name="Vertical Rotation" xvalue="0"/>
-      </location>
-    </source>
-    <source filename="octagon-Left.ufo" name="octagon Left" familyname="octagon" stylename="Left">
+    <source filename="OctagonVariable-Left.ufo" name="Octagon Variable Left" familyname="Octagon Variable" stylename="Left">
       <location>
         <dimension name="Horizontal Rotation" xvalue="-30"/>
         <dimension name="Vertical Rotation" xvalue="0"/>
       </location>
     </source>
-    <source filename="octagon-HROT-30VROT-30.ufo">
+    <source filename="OctagonVariable-HROT-30VROT-30.ufo">
       <location>
         <dimension name="Horizontal Rotation" xvalue="-30"/>
         <dimension name="Vertical Rotation" xvalue="-30"/>
       </location>
     </source>
-    <source filename="octagon-HROT30VROT-30.ufo">
-      <location>
-        <dimension name="Horizontal Rotation" xvalue="30"/>
-        <dimension name="Vertical Rotation" xvalue="-30"/>
-      </location>
-    </source>
-    <source filename="octagon-HROT-30VROT30.ufo">
+    <source filename="OctagonVariable-HROT-30VROT30.ufo">
       <location>
         <dimension name="Horizontal Rotation" xvalue="-30"/>
         <dimension name="Vertical Rotation" xvalue="30"/>
       </location>
     </source>
-    <source filename="octagon-HROT30VROT30.ufo">
+    <source filename="OctagonVariable-HROT30VROT-30.ufo">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="30"/>
+        <dimension name="Vertical Rotation" xvalue="-30"/>
+      </location>
+    </source>
+    <source filename="OctagonVariable-Right.ufo" name="Octagon Variable Right" familyname="Octagon Variable" stylename="Right">
+      <location>
+        <dimension name="Horizontal Rotation" xvalue="30"/>
+        <dimension name="Vertical Rotation" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="OctagonVariable-HROT30VROT30.ufo">
       <location>
         <dimension name="Horizontal Rotation" xvalue="30"/>
         <dimension name="Vertical Rotation" xvalue="30"/>
@@ -65,55 +65,55 @@
     </source>
   </sources>
   <instances>
-    <instance name="octagon NORMAL" familyname="octagon" stylename="NORMAL" filename="../instance_ufo/octagon-NORMAL.ufo" stylemapfamilyname="octagon NORMAL" stylemapstylename="regular">
+    <instance name="Octagon Variable NORMAL" familyname="Octagon Variable" stylename="NORMAL" filename="../instance_ufo/OctagonVariable-NORMAL.ufo" stylemapfamilyname="Octagon Variable NORMAL" stylemapstylename="regular">
       <location>
         <dimension name="Horizontal Rotation" xvalue="0"/>
         <dimension name="Vertical Rotation" xvalue="0"/>
       </location>
     </instance>
-    <instance name="octagon VROT -30" familyname="octagon" stylename="VROT -30" filename="../instance_ufo/octagon-VROT-30.ufo" stylemapfamilyname="octagon VROT -30" stylemapstylename="regular">
+    <instance name="Octagon Variable VROT -30" familyname="Octagon Variable" stylename="VROT -30" filename="../instance_ufo/OctagonVariable-VROT-30.ufo" stylemapfamilyname="Octagon Variable VROT -30" stylemapstylename="regular">
       <location>
         <dimension name="Horizontal Rotation" xvalue="0"/>
         <dimension name="Vertical Rotation" xvalue="-30"/>
       </location>
     </instance>
-    <instance name="octagon VROT 30" familyname="octagon" stylename="VROT 30" filename="../instance_ufo/octagon-VROT30.ufo" stylemapfamilyname="octagon VROT 30" stylemapstylename="regular">
+    <instance name="Octagon Variable VROT 30" familyname="Octagon Variable" stylename="VROT 30" filename="../instance_ufo/OctagonVariable-VROT30.ufo" stylemapfamilyname="Octagon Variable VROT 30" stylemapstylename="regular">
       <location>
         <dimension name="Horizontal Rotation" xvalue="0"/>
         <dimension name="Vertical Rotation" xvalue="30"/>
       </location>
     </instance>
-    <instance name="octagon HROT -30" familyname="octagon" stylename="HROT -30" filename="../instance_ufo/octagon-HROT-30.ufo" stylemapfamilyname="octagon HROT -30" stylemapstylename="regular">
+    <instance name="Octagon Variable HROT -30" familyname="Octagon Variable" stylename="HROT -30" filename="../instance_ufo/OctagonVariable-HROT-30.ufo" stylemapfamilyname="Octagon Variable HROT -30" stylemapstylename="regular">
       <location>
         <dimension name="Horizontal Rotation" xvalue="-30"/>
         <dimension name="Vertical Rotation" xvalue="0"/>
       </location>
     </instance>
-    <instance name="octagon HROT 30" familyname="octagon" stylename="HROT 30" filename="../instance_ufo/octagon-HROT30.ufo" stylemapfamilyname="octagon HROT 30" stylemapstylename="regular">
+    <instance name="Octagon Variable HROT 30" familyname="Octagon Variable" stylename="HROT 30" filename="../instance_ufo/OctagonVariable-HROT30.ufo" stylemapfamilyname="Octagon Variable HROT 30" stylemapstylename="regular">
       <location>
         <dimension name="Horizontal Rotation" xvalue="30"/>
         <dimension name="Vertical Rotation" xvalue="0"/>
       </location>
     </instance>
-    <instance name="octagon HROT 30 VROT -30" familyname="octagon" stylename="HROT 30 VROT -30" filename="../instance_ufo/octagon-HROT30VROT-30.ufo" stylemapfamilyname="octagon HROT 30 VROT -30" stylemapstylename="regular">
+    <instance name="Octagon Variable HROT 30 VROT -30" familyname="Octagon Variable" stylename="HROT 30 VROT -30" filename="../instance_ufo/OctagonVariable-HROT30VROT-30.ufo" stylemapfamilyname="Octagon Variable HROT 30 VROT -30" stylemapstylename="regular">
       <location>
         <dimension name="Horizontal Rotation" xvalue="30"/>
         <dimension name="Vertical Rotation" xvalue="-30"/>
       </location>
     </instance>
-    <instance name="octagon HROT 30 VROT 30" familyname="octagon" stylename="HROT 30 VROT 30" filename="../instance_ufo/octagon-HROT30VROT30.ufo" stylemapfamilyname="octagon HROT 30 VROT 30" stylemapstylename="regular">
+    <instance name="Octagon Variable HROT 30 VROT 30" familyname="Octagon Variable" stylename="HROT 30 VROT 30" filename="../instance_ufo/OctagonVariable-HROT30VROT30.ufo" stylemapfamilyname="Octagon Variable HROT 30 VROT 30" stylemapstylename="regular">
       <location>
         <dimension name="Horizontal Rotation" xvalue="30"/>
         <dimension name="Vertical Rotation" xvalue="30"/>
       </location>
     </instance>
-    <instance name="octagon HROT -30 VROT -30" familyname="octagon" stylename="HROT -30 VROT -30" filename="../instance_ufo/octagon-HROT-30VROT-30.ufo" stylemapfamilyname="octagon HROT -30 VROT -30" stylemapstylename="regular">
+    <instance name="Octagon Variable HROT -30 VROT -30" familyname="Octagon Variable" stylename="HROT -30 VROT -30" filename="../instance_ufo/OctagonVariable-HROT-30VROT-30.ufo" stylemapfamilyname="Octagon Variable HROT -30 VROT -30" stylemapstylename="regular">
       <location>
         <dimension name="Horizontal Rotation" xvalue="-30"/>
         <dimension name="Vertical Rotation" xvalue="-30"/>
       </location>
     </instance>
-    <instance name="octagon HROT -30 VROT 30" familyname="octagon" stylename="HROT -30 VROT 30" filename="../instance_ufo/octagon-HROT-30VROT30.ufo" stylemapfamilyname="octagon HROT -30 VROT 30" stylemapstylename="regular">
+    <instance name="Octagon Variable HROT -30 VROT 30" familyname="Octagon Variable" stylename="HROT -30 VROT 30" filename="../instance_ufo/OctagonVariable-HROT-30VROT30.ufo" stylemapfamilyname="Octagon Variable HROT -30 VROT 30" stylemapstylename="regular">
       <location>
         <dimension name="Horizontal Rotation" xvalue="-30"/>
         <dimension name="Vertical Rotation" xvalue="30"/>
@@ -124,7 +124,6 @@
     <dict>
       <key>public.skipExportGlyphs</key>
       <array>
-        <string>at</string>
         <string>diagonals</string>
         <string>horizontals</string>
         <string>verticals</string>
