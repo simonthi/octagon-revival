@@ -106,7 +106,7 @@ div:focus {
     padding-top: 14px;
     font-family: octagon;
     font-size: 98px;
-    line-height: 0.78;
+    line-height: 0.64;
     letter-spacing: 0.02em;
     text-align: center;
     width: 100%;
@@ -171,9 +171,12 @@ div:focus {
     line-height: 0.94;
 }
 
+#id10{
+    line-height: 0.56;
+}
 #id11{
-    text-underline-offset: 24px;
-    font-size: 720px;
+    border-top: 2px solid;
+    text-decoration: none;
 }
 
 
@@ -203,7 +206,7 @@ div:focus {
 
     .sample-4 {
         font-size: 72px;
-        line-height: 0.76;
+        line-height: 0.66;
         letter-spacing: 0.04em;
     }
 
