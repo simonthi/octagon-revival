@@ -30,7 +30,8 @@ OÓŎÔÖȮÒŐŌØÕŒPṖÞQRŔŘŖSŚŠŞŜȘṠTŤŢṪUÚŬ
 "444220@/.notdef",
 "/ogonekcomb.case",
 "/ogonekcomb.case ˛",
-"ŀĿ"
+"ŀĿY
+ÒT"
 );
 axes = (
 {
@@ -38562,7 +38563,8 @@ unicode = 315;
 },
 {
 glyphname = Ldot;
-lastChange = "2022-12-21 08:18:17 +0000";
+kernLeft = L;
+lastChange = "2022-12-21 08:22:40 +0000";
 layers = (
 {
 layerId = m01;
@@ -88018,7 +88020,7 @@ unicode = 88;
 glyphname = Y;
 kernLeft = Y;
 kernRight = Y;
-lastChange = "2022-12-09 21:32:28 +0000";
+lastChange = "2022-12-21 08:22:59 +0000";
 layers = (
 {
 anchors = (
@@ -163726,6 +163728,10 @@ S = -35;
 Lcaron = {
 "@MMK_R_V" = -30;
 T = -30;
+};
+Ldot = {
+"@MMK_R_V" = -40;
+"@MMK_R_Y" = -60;
 };
 Lslash = {
 "@MMK_R_V" = -90;
