@@ -6,38 +6,39 @@ window.onload = function() {
     if (accessGrant == true)   {
         $(".overlay").css( "display", "none");
     }
+    startup();
     document.body.addEventListener("mousemove", (event) => {
         if (event.x >= width/2){
             if (event.y >= height/2){
                 $("#id1").css( "font-variation-settings", "'HROT'"+30/(width/2)*(event.x-width/2)+",'VROT'"+(-((30)/(height/2)*(event.y-height/2)))+"");
                 $("#id2").css( "font-variation-settings", "'HROT'"+30/(width/2)*(event.x-width/2)+",'VROT' 0");
-                $("#id8").css( "font-variation-settings", "'HROT' 0, 'VROT'"+(-((30)/(height/2)*(event.y-height/2)))+"");
+                $("#id11").css( "font-variation-settings", "'HROT' 0, 'VROT'"+(-((30)/(height/2)*(event.y-height/2)))+"");
             } 
 
             if (event.y < height/2) {
                 $("#id1").css( "font-variation-settings", "'HROT'"+30/(width/2)*(event.x-width/2)+",'VROT'"+(30 - (30/(height/2)*(event.y)))+"");
                 $("#id2").css( "font-variation-settings", "'HROT'"+30/(width/2)*(event.x-width/2)+",'VROT' 0");
-                $("#id8").css( "font-variation-settings", "'HROT' 0, 'VROT'"+(-((30)/(height/2)*(event.y-height/2)))+"");
+                $("#id11").css( "font-variation-settings", "'HROT' 0, 'VROT'"+(-((30)/(height/2)*(event.y-height/2)))+"");
             }
         }
         else if (event.x < width/2){
             if (event.y >= height/2){
                 $("#id1").css( "font-variation-settings", "'HROT'"+(- (30/(width/2)*(width/2 - event.x)))+",'VROT'"+(-((30)/(height/2)*(event.y-height/2)))+"");
                 $("#id2").css( "font-variation-settings", "'HROT'"+(- (30/(width/2)*(width/2 - event.x)))+",'VROT' 0");
-                $("#id8").css( "font-variation-settings", "'HROT' 0, 'VROT'"+(-((30)/(height/2)*(event.y-height/2)))+"");
+                $("#id11").css( "font-variation-settings", "'HROT' 0, 'VROT'"+(-((30)/(height/2)*(event.y-height/2)))+"");
             } 
 
             if (event.y < height/2) {
                 $("#id1").css( "font-variation-settings", "'HROT'"+(- (30/(width/2)*(width/2 - event.x)))+",'VROT'"+(30 - (30/(height/2)*(event.y)))+"");
                 $("#id2").css( "font-variation-settings", "'HROT'"+(- (30/(width/2)*(width/2 - event.x)))+",'VROT' 0");
-                $("#id8").css( "font-variation-settings", "'HROT' 0, 'VROT'"+(-((30)/(height/2)*(event.y-height/2)))+"");
+                $("#id11").css( "font-variation-settings", "'HROT' 0, 'VROT'"+(-((30)/(height/2)*(event.y-height/2)))+"");
             }
         } 
     });
 }
 
 
-var colors = ['#ffcc7a', '#29ffb8', '#c2c0c0', '#ff00ff', '#cc7550', '#ff00f7', '#00fff2', '#0040ff', '#ff9900', '#c79154', '#2fc475', '#63e05c'];
+var colors = ['#ffcc7a', '#29ffb8', '#c2c0c0', '#ff00ff', '#cc7550', '#ff00f7', '#00fff2', '#0040ff', '#ff9900', '#c79154', '#2fc475', '#63e05c', '#63e05c'];
 
 function randomize(values) {
     let index = values.length,  randomIndex;
@@ -67,7 +68,7 @@ function colorize() {
 }
 
 function  run(){
-    
+
     $(".overlay").css( "display", "none");
 
     if (typeof DeviceOrientationEvent.requestPermission === 'function') {
@@ -79,8 +80,12 @@ function  run(){
                     const gamma = e.gamma;
                     if (beta < 45) {
                         $("#id1").css( "font-variation-settings", "'HROT'"+(gamma/1.5)+",'VROT'"+((45-beta)/1)+"");
+                        $("#id2").css( "font-variation-settings", "'HROT'"+(gamma/1.5)+",'VROT' 0");
+                        $("#id11").css( "font-variation-settings", "'HROT' 0,'VROT'"+((45-beta)/1)+"");
                     } else {
                         $("#id1").css( "font-variation-settings", "'HROT'"+(gamma/1.5)+",'VROT'"+((beta-45)/-1)+"");
+                        $("#id2").css( "font-variation-settings", "'HROT'"+(gamma/1.5)+",'VROT' 0");
+                        $("#id11").css( "font-variation-settings", "'HROT' 0,'VROT'"+((beta-45)/-1)+"");
                     }
                     accessGrant = true;
                 });
@@ -93,8 +98,12 @@ function  run(){
             const gamma = e.gamma;
             if (beta < 45) {
                 $("#id1").css( "font-variation-settings", "'HROT'"+(gamma/1.5)+",'VROT'"+((45-beta)/1)+"");
+                $("#id2").css( "font-variation-settings", "'HROT'"+(gamma/1.5)+",'VROT' 0");
+                $("#id11").css( "font-variation-settings", "'HROT' 0,'VROT'"+((45-beta)/1)+"");
             } else {
                 $("#id1").css( "font-variation-settings", "'HROT'"+(gamma/1.5)+",'VROT'"+((beta-45)/-1)+"");
+                $("#id2").css( "font-variation-settings", "'HROT'"+(gamma/1.5)+",'VROT' 0");
+                $("#id11").css( "font-variation-settings", "'HROT' 0,'VROT'"+((beta-45)/-1)+"");
             }
         });
     }
@@ -102,5 +111,44 @@ function  run(){
 
 
 function  startup(){
-    $(".overlay").css( "display", "none");
+
+    if (typeof DeviceOrientationEvent.requestPermission === 'function') {
+        DeviceOrientationEvent.requestPermission()
+            .then(permissionState => {
+            if (permissionState === 'granted') {
+                $(".overlay").css( "display", "none");
+                window.addEventListener('deviceorientation', (e) => {
+                    const beta = e.beta;
+                    const gamma = e.gamma;
+                    if (beta < 45) {
+                        $("#id1").css( "font-variation-settings", "'HROT'"+(gamma/1.5)+",'VROT'"+((45-beta)/1)+"");
+                        $("#id2").css( "font-variation-settings", "'HROT'"+(gamma/1.5)+",'VROT' 0");
+                        $("#id11").css( "font-variation-settings", "'HROT' 0,'VROT'"+((45-beta)/1)+"");
+                    } else {
+                        $("#id1").css( "font-variation-settings", "'HROT'"+(gamma/1.5)+",'VROT'"+((beta-45)/-1)+"");
+                        $("#id2").css( "font-variation-settings", "'HROT'"+(gamma/1.5)+",'VROT' 0");
+                        $("#id11").css( "font-variation-settings", "'HROT' 0,'VROT'"+((beta-45)/-1)+"");
+                    }
+                    accessGrant = true;
+                });
+            }
+        })
+            .catch(console.error);
+    } else {
+        $(".overlay").css( "display", "none");
+        window.addEventListener('deviceorientation', (e) => {
+            const beta = e.beta;
+            const gamma = e.gamma;
+            if (beta < 45) {
+                $("#id1").css( "font-variation-settings", "'HROT'"+(gamma/1.5)+",'VROT'"+((45-beta)/1)+"");
+                $("#id2").css( "font-variation-settings", "'HROT'"+(gamma/1.5)+",'VROT' 0");
+                $("#id11").css( "font-variation-settings", "'HROT' 0,'VROT'"+((45-beta)/1)+"");
+            } else {
+                $("#id1").css( "font-variation-settings", "'HROT'"+(gamma/1.5)+",'VROT'"+((beta-45)/-1)+"");
+                $("#id2").css( "font-variation-settings", "'HROT'"+(gamma/1.5)+",'VROT' 0");
+                $("#id11").css( "font-variation-settings", "'HROT' 0,'VROT'"+((beta-45)/-1)+"");
+            }
+        });
+    }
+
 }
