@@ -1,5 +1,5 @@
 {
-.appVersion = "3148";
+.appVersion = "3149";
 .formatVersion = 3;
 DisplayStrings = (
 "-,EEÉ/dieresiscomb.case 
@@ -29,7 +29,8 @@ OÓŎÔÖȮÒŐŌØÕŒPṖÞQRŔŘŖSŚŠŞŜȘṠTŤŢṪUÚŬ
 "#",
 "444220@/.notdef",
 "/ogonekcomb.case",
-"/ogonekcomb.case ˛"
+"/ogonekcomb.case ˛",
+"ŀĿ"
 );
 axes = (
 {
@@ -71,6 +72,7 @@ languagesystem latn TAT;
 languagesystem latn TRK;
 languagesystem latn ROM;
 languagesystem latn MOL;
+languagesystem latn CAT;
 ";
 name = Languagesystems;
 }
@@ -158,6 +160,7 @@ sub l by L;
 sub lacute by Lacute;
 sub lcaron by Lcaron;
 sub lcommaaccent by Lcommaaccent;
+sub ldot by Ldot;
 sub lslash by Lslash;
 sub m by M;
 sub n by N;
@@ -273,6 +276,13 @@ lookup locl_latn_1 {
 	sub Tcedilla by Tcommaaccent;
 	sub tcedilla by tcommaaccent;
 } locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
+	language CAT;
+	sub  l' periodcentered' l by ldot;
+	sub  L' periodcentered' L by Ldot;
+} locl_latn_2;
 ";
 tag = locl;
 }
@@ -38549,6 +38559,79 @@ width = 435;
 }
 );
 unicode = 315;
+},
+{
+glyphname = Ldot;
+lastChange = "2022-12-21 08:18:17 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = L;
+},
+{
+pos = (240,-10);
+ref = periodcentered;
+}
+);
+width = 455;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = L;
+},
+{
+pos = (240,45);
+ref = periodcentered;
+}
+);
+width = 455;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = L;
+},
+{
+pos = (240,50);
+ref = periodcentered;
+}
+);
+width = 455;
+},
+{
+layerId = m004;
+shapes = (
+{
+alignment = -1;
+ref = L;
+},
+{
+pos = (220,-10);
+ref = periodcentered;
+}
+);
+width = 439;
+},
+{
+layerId = m005;
+shapes = (
+{
+ref = L;
+},
+{
+pos = (220,-10);
+ref = periodcentered;
+}
+);
+width = 435;
+}
+);
+unicode = 319;
 },
 {
 glyphname = Lslash;
@@ -93530,6 +93613,33 @@ width = 600;
 }
 );
 unicode = 316;
+},
+{
+glyphname = ldot;
+lastChange = "2022-12-21 08:18:29 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+},
+{
+layerId = m003;
+width = 600;
+},
+{
+layerId = m004;
+width = 600;
+},
+{
+layerId = m005;
+width = 600;
+}
+);
+unicode = 320;
 },
 {
 glyphname = lslash;
