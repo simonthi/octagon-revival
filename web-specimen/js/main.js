@@ -6,7 +6,9 @@ window.onload = function() {
     if (accessGrant == true)   {
         $(".overlay").css( "display", "none");
     }
-    startup();
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+        startup();
+    }
     document.body.addEventListener("mousemove", (event) => {
         if (event.x >= width/2){
             if (event.y >= height/2){
