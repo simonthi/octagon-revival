@@ -124,7 +124,6 @@
     <dict>
       <key>public.skipExportGlyphs</key>
       <array>
-        <string>at</string>
         <string>diagonals</string>
         <string>horizontals</string>
         <string>verticals</string>

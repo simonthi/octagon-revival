@@ -386,8 +386,8 @@
       <string>quoteright</string>
       <string>quotedbl</string>
       <string>quotesingle</string>
-      <string>ampersand</string>
       <string>at</string>
+      <string>ampersand</string>
       <string>asciitilde</string>
       <string>asciicircum</string>
       <string>dieresiscomb.case</string>
@@ -896,7 +896,6 @@
     </dict>
     <key>public.skipExportGlyphs</key>
     <array>
-      <string>at</string>
       <string>diagonals</string>
       <string>horizontals</string>
       <string>verticals</string>
