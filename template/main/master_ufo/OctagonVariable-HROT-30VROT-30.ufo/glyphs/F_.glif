@@ -18,14 +18,14 @@
       <point x="10.0" y="550.0" type="line"/>
     </contour>
     <contour>
-      <point x="57.0" y="83.0" type="line"/>
-      <point x="77.0" y="83.0" type="line"/>
+      <point x="57.0" y="89.0" type="line"/>
+      <point x="77.0" y="89.0" type="line"/>
       <point x="77.0" y="411.0" type="line"/>
       <point x="57.0" y="411.0" type="line"/>
     </contour>
     <contour>
-      <point x="200.0" y="206.0" type="line"/>
-      <point x="213.0" y="222.0" type="line"/>
+      <point x="202.0" y="204.0" type="line"/>
+      <point x="215.0" y="220.0" type="line"/>
       <point x="72.0" y="247.0" type="line"/>
       <point x="57.0" y="233.0" type="line"/>
     </contour>
